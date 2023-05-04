@@ -13,6 +13,7 @@
 		1B698B0A2A03ECD900657782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B698B082A03ECD900657782 /* Main.storyboard */; };
 		1B698B0C2A03ECDA00657782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B698B0B2A03ECDA00657782 /* Assets.xcassets */; };
 		1B698B0F2A03ECDA00657782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B698B0D2A03ECDA00657782 /* LaunchScreen.storyboard */; };
+		719120A3EEDC83F37E9E0C88 /* Pods_MovieSearcherAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719B29F966AAFC47F29DE54B /* Pods_MovieSearcherAlamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		1B698B0B2A03ECDA00657782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B698B0E2A03ECDA00657782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B698B102A03ECDA00657782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EB70B02382612F8E5E7FD7 /* Pods-MovieSearcherAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieSearcherAlamofire.release.xcconfig"; path = "Target Support Files/Pods-MovieSearcherAlamofire/Pods-MovieSearcherAlamofire.release.xcconfig"; sourceTree = "<group>"; };
+		719B29F966AAFC47F29DE54B /* Pods_MovieSearcherAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieSearcherAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F28ADCDF3745628F4C2729 /* Pods-MovieSearcherAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieSearcherAlamofire.debug.xcconfig"; path = "Target Support Files/Pods-MovieSearcherAlamofire/Pods-MovieSearcherAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				719120A3EEDC83F37E9E0C88 /* Pods_MovieSearcherAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				1B698B012A03ECD900657782 /* MovieSearcherAlamofire */,
 				1B698B002A03ECD900657782 /* Products */,
+				48575AE61FE0E743A134CA4E /* Pods */,
+				4B92D8D1666E5CC20C91448B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = MovieSearcherAlamofire;
 			sourceTree = "<group>";
 		};
+		48575AE61FE0E743A134CA4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9F28ADCDF3745628F4C2729 /* Pods-MovieSearcherAlamofire.debug.xcconfig */,
+				23EB70B02382612F8E5E7FD7 /* Pods-MovieSearcherAlamofire.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B92D8D1666E5CC20C91448B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				719B29F966AAFC47F29DE54B /* Pods_MovieSearcherAlamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B698B132A03ECDA00657782 /* Build configuration list for PBXNativeTarget "MovieSearcherAlamofire" */;
 			buildPhases = (
+				C4322A265432772B99DFDC6B /* [CP] Check Pods Manifest.lock */,
 				1B698AFB2A03ECD900657782 /* Sources */,
 				1B698AFC2A03ECD900657782 /* Frameworks */,
 				1B698AFD2A03ECD900657782 /* Resources */,
+				3DBB819DF460716953AD0F7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DBB819DF460716953AD0F7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieSearcherAlamofire/Pods-MovieSearcherAlamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieSearcherAlamofire/Pods-MovieSearcherAlamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieSearcherAlamofire/Pods-MovieSearcherAlamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4322A265432772B99DFDC6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovieSearcherAlamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B698AFB2A03ECD900657782 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		1B698B142A03ECDA00657782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F28ADCDF3745628F4C2729 /* Pods-MovieSearcherAlamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +380,7 @@
 		};
 		1B698B152A03ECDA00657782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23EB70B02382612F8E5E7FD7 /* Pods-MovieSearcherAlamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

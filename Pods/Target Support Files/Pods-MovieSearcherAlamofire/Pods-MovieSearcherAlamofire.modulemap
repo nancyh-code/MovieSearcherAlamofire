@@ -1,0 +1,6 @@
+framework module Pods_MovieSearcherAlamofire {
+  umbrella header "Pods-MovieSearcherAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}
