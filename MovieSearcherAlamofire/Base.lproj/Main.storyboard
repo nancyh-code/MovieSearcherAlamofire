@@ -19,10 +19,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4jK-sR-HGQ">
                                 <rect key="frame" x="15" y="69" width="363" height="719"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ENm-Xl-0e8">
-                                        <rect key="frame" x="0.0" y="0.0" width="363" height="290"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ENm-Xl-0e8">
+                                        <rect key="frame" x="0.0" y="0.0" width="363" height="260"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Type the name of the movie" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CHB-Ua-aow">
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type the name of the movie" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CHB-Ua-aow">
                                                 <rect key="frame" x="0.0" y="0.0" width="363" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="uob-Zs-2SP"/>
@@ -30,40 +30,40 @@
                                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RL-Jz-zKH">
-                                                <rect key="frame" x="0.0" y="50" width="363" height="40"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RL-Jz-zKH">
+                                                <rect key="frame" x="0.0" y="44" width="363" height="40"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KM6-kr-1lr">
-                                                <rect key="frame" x="0.0" y="100" width="363" height="40"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KM6-kr-1lr">
+                                                <rect key="frame" x="0.0" y="88" width="363" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xwm-hB-cVn">
-                                                <rect key="frame" x="0.0" y="150" width="363" height="40"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xwm-hB-cVn">
+                                                <rect key="frame" x="0.0" y="132" width="363" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fl8-OD-D2P">
-                                                <rect key="frame" x="0.0" y="200" width="363" height="40"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fl8-OD-D2P">
+                                                <rect key="frame" x="0.0" y="176" width="363" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScV-IM-CBf">
-                                                <rect key="frame" x="0.0" y="250" width="363" height="40"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScV-IM-CBf">
+                                                <rect key="frame" x="0.0" y="220" width="363" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uhz-Sb-7K2">
-                                        <rect key="frame" x="0.0" y="300" width="363" height="359"/>
+                                        <rect key="frame" x="0.0" y="270" width="363" height="389"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyS-wb-ckx">
                                         <rect key="frame" x="0.0" y="669" width="363" height="50"/>
@@ -73,11 +73,17 @@
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="rPx-Dq-zHf"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Search">
+                                        <buttonConfiguration key="configuration" style="plain" title="Movie Search">
                                             <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="searchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="etd-nn-gXi"/>
+                                        </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="Uhz-Sb-7K2" firstAttribute="top" secondItem="ENm-Xl-0e8" secondAttribute="bottom" constant="30" id="m2H-eP-iH0"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -92,9 +98,11 @@
                     <connections>
                         <outlet property="actors" destination="Fl8-OD-D2P" id="m7a-YI-bKU"/>
                         <outlet property="awards" destination="Xwm-hB-cVn" id="RVy-RJ-RBu"/>
+                        <outlet property="genre" destination="ScV-IM-CBf" id="mLS-Hc-eUz"/>
                         <outlet property="launchDate" destination="KM6-kr-1lr" id="Jol-WT-VJn"/>
                         <outlet property="movieName" destination="CHB-Ua-aow" id="itb-Zv-b1t"/>
-                        <outlet property="movieTitle" destination="KM6-kr-1lr" id="ESh-R5-hwk"/>
+                        <outlet property="movieTitle" destination="3RL-Jz-zKH" id="ocx-Nz-mCd"/>
+                        <outlet property="poster" destination="Uhz-Sb-7K2" id="Jdu-0a-mza"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
